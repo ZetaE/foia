@@ -15,10 +15,10 @@ module.exports = function findObjectInArray(arraytosearch, obj) {
       if(arraytosearch[i][keys[j]] === values[j]){
         counter++;
       }
-	  else{
+      else{
         break;
-	  }
-		}
+      }
+    }
 		if (counter === objlength){
       return i;
     }
