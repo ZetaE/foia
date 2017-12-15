@@ -1,2 +1,2 @@
 # foia
-find object in a array of objects
+Find Object In an Array of objects
