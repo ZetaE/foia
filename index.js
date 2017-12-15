@@ -1,4 +1,8 @@
 module.exports = function findObjectInArray(arraytosearch, obj) {
+
+  arraytosearch = arraytosearch || [];
+  obj = obj || {};
+
   var keys = [];
   var values = [];
 
@@ -19,7 +23,7 @@ module.exports = function findObjectInArray(arraytosearch, obj) {
         break;
       }
     }
-		if (counter === objlength){
+    if (counter === objlength && counter !== 0){
       return i;
     }
   }
