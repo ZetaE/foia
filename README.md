@@ -1,12 +1,12 @@
 # foia
 Find Object In an Array of objects
 
-##installation
+## installation
 ```javascript
 npm install foia
 ```
 
-##usage
+## usage
 ```javascript
 
 var arrayofobjects = [
