@@ -1,11 +1,11 @@
 {
   "name": "foia",
   "version": "1.0.0",
-  "description": "find object in a array of objects ",
+  "description": "find object in an array of objects ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Cesare Moschini",
+  "license": "MIT"
 }
