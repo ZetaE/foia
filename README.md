@@ -7,6 +7,9 @@ npm install foia
 ```
 
 ## usage
+
+return the first index of the found object. Otherwise return -1.
+
 ```javascript
 
 var arrayofobjects = [
